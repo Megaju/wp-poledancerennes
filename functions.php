@@ -13,7 +13,7 @@ register_nav_menus( array(
     $args = array(
     'width'         => 800,
     'height'        => 540,
-    'default-image' => get_template_directory_uri() . '/img/facade.JPG',
+    'default-image' => get_template_directory_uri() . '/img/cover.jpg',
     'uploads'       => true,
     );
 add_theme_support( 'custom-header', $args );

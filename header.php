@@ -31,7 +31,7 @@
 
 <div id="page">
     
-    <div id="header">
+    <div id="header" style='background-image:url(<?php header_image(); ?>)'>
         
         <!-- menu de navigation -->
         <?php wp_nav_menu(array('theme_location' => 'Top')); ?>

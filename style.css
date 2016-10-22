@@ -21,6 +21,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#header {
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center -100px;
+}
 
 /* ==========================================================================
    DANSE CLASSES
