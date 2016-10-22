@@ -50,6 +50,8 @@ body {
 }
 
 #header p {
+    width: 45%;
+    text-align: center;
     color: #fefefe;
     font-weight: 700;
 }
