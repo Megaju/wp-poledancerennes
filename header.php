@@ -38,7 +38,7 @@
         
         <!-- TITRE DU SITE ET SA DESCRIPTION -->
         <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <?php bloginfo('description'); ?>
+        <p><?php bloginfo('description'); ?></p>
         
     </div>
     
