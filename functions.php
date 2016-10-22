@@ -8,3 +8,13 @@ register_nav_menus( array(
     ) );
 
 ?>
+
+<?php
+    $args = array(
+    'width'         => 800,
+    'height'        => 540,
+    'default-image' => get_template_directory_uri() . '/img/facade.JPG',
+    'uploads'       => true,
+    );
+add_theme_support( 'custom-header', $args );
+?>
