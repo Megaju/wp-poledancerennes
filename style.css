@@ -21,11 +21,50 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* ==========================================================================
+   HEADER CONTENT
+   ========================================================================== */
+
 #header {
     height: 600px;
     background-attachment: fixed;
     background-size: cover;
     background-position: center -100px;
+}
+
+.shadow {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    
+}
+
+#header h1 {
+    font-size: 3.2em;
+    margin: 50px 0;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+#header p {
+    color: #fefefe;
+    font-weight: 700;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #9e1962;
+}
+
+#header i {
+    margin: 40px 20px;
+    font-size: 2em;
+    color: #fefefe;
 }
 
 /* ==========================================================================

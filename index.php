@@ -40,6 +40,6 @@
 
     <?php get_footer(); ?>
 
-        </body>
+    </body>
 
-        </html>
+</html>

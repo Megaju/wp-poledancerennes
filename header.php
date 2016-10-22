@@ -20,7 +20,8 @@
     <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     <?php wp_head(); ?>
         <?php wp_get_archives('type=monthly&format=link'); ?>
@@ -30,18 +31,24 @@
 <body>
 
 <div id="page">
+    <!-- menu de navigation -->
+    <?php wp_nav_menu(array('theme_location' => 'Top')); ?>
     
     <div id="header" style='background-image:url(<?php header_image(); ?>)'>
-        
-        <!-- menu de navigation -->
-        <?php wp_nav_menu(array('theme_location' => 'Top')); ?>
-        
-        <!-- TITRE DU SITE ET SA DESCRIPTION -->
-        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <p><?php bloginfo('description'); ?></p>
-        
+        <div class="shadow">
+            <!-- LOGO -->
+            <div class="logo"></div>
+            
+            <!-- TITRE DU SITE ET SA DESCRIPTION -->
+            <h1><?php bloginfo('name'); ?></h1>
+            <p><?php bloginfo('description'); ?></p>
+            
+            <!-- icones réseaux sociaux -->
+            <div class="social-icons">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+        </div>
     </div>
-    
-
-    
 </div>
