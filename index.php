@@ -24,13 +24,13 @@
                                                 </p>
                                         </div>
                                     </div>
-                            </div>
-                                    <?php endwhile; ?>
-                                        <?php endif; ?>
+                                </div>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                                       
                                 </div>
                                 
-                                 <div class="ligne-design">
+                                <div class="ligne-design">
                                     <div></div>
                                 </div>
                                 <a href="#"><button type="submit">En SAVOIR plus</button></a>
