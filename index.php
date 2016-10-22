@@ -30,7 +30,7 @@
                                       
                                 </div>
                                 
-                                 <div class="ligne-design">
+                                 <div class="ligne-design-button">
                                     <div></div>
                                 </div>
                                 <a href="#"><button type="submit">En SAVOIR plus</button></a>
