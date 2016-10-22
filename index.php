@@ -24,9 +24,9 @@
                                                 </p>
                                         </div>
                                     </div>
-                            </div>
-                                    <?php endwhile; ?>
-                                        <?php endif; ?>
+                                </div>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                                       
                                 </div>
                                 

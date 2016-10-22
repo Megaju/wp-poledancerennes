@@ -21,6 +21,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#header {
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center -100px;
+}
 
 /* ==========================================================================
    DANSE CLASSES
@@ -114,6 +120,60 @@ body {
 
 
 /* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+#menu-deroulant {
+    display: none;
+}
+
+.menu-top-container {
+    height: 50px;
+    border-bottom: 1px solid #263461;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #263461;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.menu-top-container {
+    height: 100%;
+}
+
+.menu-top-container ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+
+.menu-top-container ul li {
+    display: inline;
+}
+
+.menu-top-container ul li a {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #263461;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.menu-top-container ul li:hover a,
+.current_page_item a {
+    background-color: #263461;
+    color: #fff!important;
+    transition: .2s;
+}
+
+
+/* ==========================================================================
    FOOTER
    ========================================================================== */
 
@@ -130,4 +190,5 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+
 }
