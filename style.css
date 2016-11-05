@@ -91,12 +91,14 @@ body {
     font-size: 2em;
     margin-top: 30px;
     cursor: pointer;
+    transition: .6s;
 }
 
 .dance-classes button:hover {
     background-color: white;
     color: #9e1962;
-    border: 1px solid #9e1962; 
+    border: 1px solid #9e1962;
+    transition: .6s;
 }
 
 
