@@ -66,11 +66,11 @@
                                         <!-- title -->
                                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                                         <!-- separator -->
-                                        <div class="separator-purple"></div>
+                                        <div class="separator-white"></div>
                                         <!-- article text -->
-                                        <p class="postmetadata">
+                                        
                                             <?php the_content(__('<i class="fa fa-3x fa-plus-circle read-more"></i>')); ?>
-                                        </p>
+                                        
                                     </div>
                                 </div>
                             </div>
