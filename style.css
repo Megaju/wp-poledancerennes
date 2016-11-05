@@ -21,6 +21,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    margin: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9e1962;
+}
+
+.event-hover h2, .dance-classes h2 {
+    margin: 0;
+    text-align: left;
+}
+
 /* ==========================================================================
    HEADER CONTENT
    ========================================================================== */

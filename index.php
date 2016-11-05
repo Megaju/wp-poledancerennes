@@ -47,6 +47,7 @@
     
     <!-- SECTION DES EVENEMENTS -->
     <section class="event-section">
+       <h2>Nos événements</h2>
         <div class="event-content">
         <?php query_posts('category_name=evenement'); ?>
             <?php if(have_posts()) : ?>
