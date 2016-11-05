@@ -38,6 +38,12 @@
         <a href="#"><button type="submit">En SAVOIR plus</button></a>
                                 
     </section>
+    
+    <!-- SLIDER -->
+    <div class="slider">
+        <?php wd_slider(1); ?>
+        <span class="more-on-fb">Encore plus d'images sur facebook. <i class="fa fa-facebook-official"></i></span>
+    </div>
 
 
     <?php get_footer(); ?>
